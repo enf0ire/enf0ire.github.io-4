@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "author" content="cherevko lena 22/1">
+        <title>ЭТО Я</title>
+        <link rel="stylesheet" href="C:\Users\79186\Desktop\WEB1\WEB3\C.css">
+    </head>
+    <body>
+        <div id = "high_back"></div>
+        <div id = "main">
+            <p>абсолютная гиперссылка на главную страницу сайта kubsu.ru; </p>
+            <a href="http://kubsu.ru/" >КубГУ</a>
+            <p>абсолютная на главную сайта kubsu.ru в протоколе https; </p>
+            <a href="https://kubsu.ru/">КубГУ</a>
+            <p>ссылкa-изображение</p>
+            <a name = "bottom"></a>
+            <a href="https://www.nationalgeographic.com/animals/mammals/facts/domestic-cat" target="_blank"><img src="https://i.pinimg.com/564x/f7/9a/62/f79a625ca3bd114f6e0560df9c3626e6.jpg"  alt="Котик" title="сугуру"></a>
+            <p>сокращенная ссылка на внутреннюю страницу</p>
+            <a href = "fg.html">типа внутренняя страница</a>
+            <p>сокращенная ссылка на главную страницу</p>
+            <a href = "project1.html">типа главная страница</a>
+            <p>ссылка на фрагмент текущей страницы</p>
+            <a href = "#bottom">типа главная страница но внимание на картинку</a>
+            <p>ссылка с тремя параметрами в URL</p>
+            <a href = "http://www.mypage.com/catalog/cat?parametr1=1&parametr2=2&parametr3=3">я не знаю что это</a>
+            <p>ссылка с параметром id в URL</p>
+            <a href = "https://vk.com/enfoire">моя страничка</a>
+            <p>относительная на страницу в текущем каталоге</p>
+            <a href="./fg.html">ссылка на fg</a>
+            <p>относительная на страницу в каталоге about</p>
+            <a href = "about/fg.html">about</a>
+            <p>относительная на страницу в каталоге уровнем выше текущего</p>
+            <a href = "../fg.html">about</a>
+            <p>относительная на страницу в каталоге двумя уровнями выше</p>
+            <a href = "../../fg.html">about</a>
+            <p>контекстная в тексте абзаца</p>
+            <p>ОЧЕНЬ<a href = "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0"> ВАЖНАЯ ИНФОРМАЦИЯ</a></p>
+            <p>ссылка на фрагмент страницы стороннего сайта</p>
+            <a href = https://kubsu.ru/ru/sveden/common#block-block-8>КУБГУ</a>
+            <p>ссылки из прямоугольных и круглых областей картинки (HTML-тег map)</p>
+            <img src = "https://fb.ru/misc/i/gallery/98402/2640804.jpg" usemap = "#figuri" alt="круг">
+              <map name = "figuri" >
+                  <area shape = "rect" coords = "25,25,125,125" href = "https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82" alt = "Красный квадрат" >
+                  <area shape = "circle" coords = "200,75,50" href = "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B3" alt = "Зелёный круг." >
+              </map>
+            <p>ссылка с пустым href</p>
+            <a href="#no_scroll">вникуда</a>
+            <p>ссылка без href</p>
+            <a>нет href</a>
+            <p>ссылка, по которой запрещен переход поисковикам</p>
+            <a href="http://kubsu.ru/" rel = "nofollow">КубГУ</a>
+            <p>запрещенная для индексации поисковиками</p>
+            <noindex>
+                <a href="http://kubsu.ru/" >КубГУ</a>
+            </noindex>
+            <p>нумерованный список ссылок с подписями title</p>
+            <ol>
+                <li><a href="http://kubsu.ru/" >КубГУ</a></li>
+                <li><a href="https://www.youtube.com/watch?v=6eI9T3udOy4" >Песня которую сейчас слушаю</a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B4%D1%80%D0%B0" >Любимое животное</a></li>
+              </ol>
+            <p>ссылка на файл на сервере FTP с авторизацией</p>
+            <a href ="ftp://user:pass123@tavalik.ru/Temp/file.txt"></a>
+        </div>
+
+        <div id = "nain">
+        <p style="color: aqua;">PRIVET</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quam provident, animi laboriosam veniam pariatur magni facere minus suscipit modi voluptates minima omnis tempora dicta sunt alias nobis earum consectetur!</p>
+        <div>
+        <table border="1" width="500px">
+            <thead>
+                <tr>
+                    <th>имя</th>
+                    <th>фамилия</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>cherevro</td>
+                    <td>elena</td>
+                </tr>
+                <tr>
+                    <td>chere</td>
+                    <td>ele</td>
+                </tr>
+                <tr>
+                    <td>vro</td>
+                    <td>na</td>
+                </tr>
+                <tr>
+                    <td>ch</td>
+                    <td>lena</td>
+                </tr>
+            </tbody>
+            <tfoot align="center">
+                <tr>
+                    <td>first</td>
+                    <td>second</td>
+                </tr>
+            </tfoot>
+        </table>
+        </div>
+    </body>
+</html>

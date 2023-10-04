@@ -1,0 +1,12 @@
+#high_back {
+color:black;
+background: #000 url('https://i.pinimg.com/564x/3f/53/00/3f53003655e0d1b55b2401806b39c274.jpg') no-repeat center top;
+height: 500px;
+background-size: cover;
+background-attachment: fixed;
+}
+
+body {
+    color: lightsalmon;
+    background-color: #7f9ab3;
+}
